@@ -2,7 +2,7 @@ A simple App 📱 built to demonstrate the use of modern android architecture co
 The App is using the Rockets Api to listing of rockets .
 
 Build With 🏗️
-Kotlin - Programming language for Android
+**Kotlin** - Programming language for Android
 Hilt-Dagger - Standard library to incorporate Dagger dependency injection into an Android application.
 Retrofit - A type-safe HTTP client for Android and Java.
 Room - SQLite object mapping library.
@@ -16,3 +16,6 @@ Glide - An image loading and caching library for Android focused on smooth scrol
 
 Project Architecture 🗼
 This app uses MVVM (Model View View-Model) architecture.
+
+
+![mvvm_architecture](https://user-images.githubusercontent.com/39729116/198282110-b5e82d36-4b0c-463a-8691-c14ccb244be9.png)
