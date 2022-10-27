@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    android:background="@drawable/note_background"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/sf_pro_display_bold"
+        android:text="Name"
+        android:textColor="#000"
+        android:textSize="18sp" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/country"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/sf_pro_display_semibold"
+        android:text="Country"
+        android:layout_marginTop="8dp"
+        android:textColor="#000"
+        android:textSize="15sp" />
+
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/enginesCount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:fontFamily="@font/sf_pro_display_regular"
+        android:text="Engines Count  5"
+        android:textColor="#000"
+        android:textSize="13sp" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/flickerImage"
+        android:layout_width="match_parent"
+        android:layout_height="170dp"
+        android:src="@drawable/flicker"
+        android:scaleType="fitXY"
+        android:layout_marginTop="20dp"
+        />
+
+</LinearLayout>
